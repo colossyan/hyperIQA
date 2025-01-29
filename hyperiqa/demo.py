@@ -1,6 +1,6 @@
 import torch
 import torchvision
-import models
+from . import models
 from PIL import Image
 import numpy as np
 

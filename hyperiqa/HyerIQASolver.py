@@ -1,8 +1,8 @@
 import torch
 from scipy import stats
 import numpy as np
-import models
-import data_loader
+from . import models
+from . import data_loader
 
 class HyperIQASolver(object):
     """Solver for training and testing hyperIQA"""

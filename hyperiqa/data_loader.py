@@ -1,6 +1,6 @@
 import torch
 import torchvision
-import folders
+from . import folders
 
 class DataLoader(object):
     """Dataset class for IQA databases"""

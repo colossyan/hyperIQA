@@ -2,7 +2,7 @@ import os
 import argparse
 import random
 import numpy as np
-from .HyerIQASolver import HyperIQASolver
+from .HyperIQASolver import HyperIQASolver
 
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
